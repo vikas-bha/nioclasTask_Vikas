@@ -1,0 +1,31 @@
+body{
+  background-color:darkseagreen;
+}
+.container{
+  height: 100vh;
+  position: relative;
+}
+.box{
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border: 2px solid gray;
+  top: auto;
+  
+  color: white ;
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  top: calc(50% - 175px);
+  left: calc(50% - 125px);
+  background-color:darkolivegreen;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.box > button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
